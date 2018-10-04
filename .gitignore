@@ -4,6 +4,7 @@
 /hotel_viewer/.idea
 /hotel_viewer/hotel_viewer/local_settings.py
 __pycache__
+*.pyc
 
 # General
 .DS_Store
