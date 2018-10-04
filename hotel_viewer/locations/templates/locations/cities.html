@@ -4,6 +4,7 @@
     {% for city in cities %}
         <p>
         {{ city.id }}
+        {{ city.city }}
             <a href="{% url 'locations:city' city_name=city.city %}">  {{ city.city }} </a>
         </p>
     {% endfor %}
