@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% for hotel in hotels %}
+        <p>
+        {{ hotel.hotel }}
+        {{ hotel.id }}
+        {{ hotel.city }}
+        </p>
+    {% endfor %}
+{% endblock %}

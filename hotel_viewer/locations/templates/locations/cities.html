@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% for city in cities %}
+        <p>
+        {{ city.id }}
+        {{ city.city }}
+        </p>
+    {% endfor %}
+{% endblock %}
